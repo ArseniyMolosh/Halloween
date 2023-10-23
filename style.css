@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-color: rgb(27, 24, 41);
+    position: absolute;
+}
+
+h1 {
+    color: orange;
+    font-size: 300%;
+}
+
+h2 {
+    color: orange;
+    font-family: 'Prompt', sans-serif;
+}
+
+p {
+    color: orange;
+    font-family: 'Caveat', cursive;
+}
+
+.title {
+    padding: 10% 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    min-width: 150px;
+    padding: 20px;
+    background-color: rgb(40, 33, 86);
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.pumpkin1 {
+    position: relative;
+    bottom: 50px;
+}
+
+.pumpkin2 {
+    padding-top: 20px;
+    width: 15rem;
+    height: 15rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+}
+
+.Jack {
+    width: 15rem;
+    height: 15rem;
+}
+
+@media (max-width: 740px) {
+    .pumpkin1 {
+        display: none;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body {
+        flex-direction: column;
+    }
+}
